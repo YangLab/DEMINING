@@ -2,7 +2,11 @@
 
 DEMINING: a stepwise computational framework to directly <ins>d</ins>etect <ins>e</ins>xpressed DNA and RNA <ins>m</ins>utations <ins>i</ins>n R<ins>N</ins>A deep sequenc<ins>ing</ins> data (DEMINING).
 
+<<<<<<< HEAD
 Version: 1.0 2023/07/31
+=======
+Version: 1.0 2023/08/03
+>>>>>>> 28ac1bfd346d77eb9dd11827b5443db132ef9b54
 
 Author: Zhi-Can Fu (fuzhican@picb.ac.cn) 
 
