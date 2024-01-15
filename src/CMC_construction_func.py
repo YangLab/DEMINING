@@ -175,11 +175,14 @@ if __name__ == "__main__":
     predict_out_file=sys.argv[10]
     length0=601
     length1=length0-1
-    try:
-        _=pysam.faidx(ref_genome_path, "chr22:1-601").strip()
-        pysam_version_gt084=True
-    except:
+
+    pysam_version=pysam.__version__
+    pysam_version_1,pysam_version_2,pysam_version_3=[int(x)for x in pysam_version.split(".")]
+    if pysam_version_1==0 and pysam_version_2<=8 and pysam_version_3<=4:
         pysam_version_gt084=False
+    else:
+        pysam_version_gt084=True
+        
     df_CMC=Gen_CMC_main(RADAR_out)
     DeepDDR_predict(df_CMC,DeepDDR_path,predict_out_file,MSALen1=length1)
 
