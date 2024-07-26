@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: DEMINING
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Zhi-Can
+    family-names: Fu
+  - given-names: Bao-Qing
+    family-names: Gao
+  - family-names: Nan
+    given-names: Fang
+  - given-names: Xu-Kai
+    family-names: Ma
+  - given-names: Li
+    family-names: Yang
