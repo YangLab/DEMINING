@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/376a1791-5f66-4b20-a81e-65c2a8e24f80)# DEMINING
+# DEMINING
 
 DEMINING: a stepwise computational framework to directly <ins>d</ins>etect <ins>e</ins>xpressed DNA and RNA <ins>m</ins>utations <ins>i</ins>n R<ins>N</ins>A deep sequenc<ins>ing</ins> data (DEMINING).
 
