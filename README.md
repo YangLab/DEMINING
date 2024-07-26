@@ -1,4 +1,4 @@
-# DEMINING
+![image](https://github.com/user-attachments/assets/376a1791-5f66-4b20-a81e-65c2a8e24f80)# DEMINING
 
 DEMINING: a stepwise computational framework to directly <ins>d</ins>etect <ins>e</ins>xpressed DNA and RNA <ins>m</ins>utations <ins>i</ins>n R<ins>N</ins>A deep sequenc<ins>ing</ins> data (DEMINING).
 
@@ -8,9 +8,9 @@ Author: Zhi-Can Fu (fuzhican@picb.ac.cn)
 
 
 ## 1. Installation
-### 1.1 Download DEMINING git repo and decompress DEMINING.zip with password (obtain from "Code availability" section of manuscript)
+### 1.1 Download DEMINING git repo and decompress DEMINING.zip with password
         git clone git@github.com:fuzhican/DEMINING.git
-        cd DEMINING; unzip DEMINING.zip [Enter password when prompted]
+        cd DEMINING; unzip DEMINING.zip
 ### 1.2 Create conda environment and activate 
         conda env create -f environment.yml 
         conda activate ~/DEMINING_env
@@ -59,7 +59,7 @@ Author: Zhi-Can Fu (fuzhican@picb.ac.cn)
     
 
 ## 5. Citation
-Fu, Z.C.#, Gao, B.Q.#, Nan, F., Ma, X.K., and Yang, L.* (2023). A deep learning model embedded framework to distinguish DNA and RNA mutations directly from RNA-seq.
+Fu, Z.C.#, Gao, B.Q.#, Nan, F., Ma, X.K., and Yang, L.* (2024). DEMINING: a deep learning model embedded framework to distinguish RNA editing from DNA mutations in RNA sequencing data.
 
 
 ## 6. License
